@@ -1,0 +1,90 @@
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+	<!-- Indicators -->
+	<ul class="carousel-indicators">
+		<li data-target="#demo" data-slide-to="0" class="active"></li>
+		<li data-target="#demo" data-slide-to="1"></li>
+	</ul>
+
+	<!-- The slideshow -->
+	<div class="carousel-inner">
+		<div class="carousel-item active">
+			<img src="https://coverfiles.alphacoders.com/405/40573.jpg" width="100%" height="440px">
+		</div>
+		<div class="carousel-item">
+			<img src="https://coverfiles.alphacoders.com/177/17725.jpg" width="100%" height="440px">
+		</div>
+		<div class="carousel-item">
+			<img src="http://parklandsgolf.co.uk/wp-content/uploads/2013/07/play-banner-hole.jpg" width="100%" height="440px">
+		</div>
+	</div>
+
+	<!-- Left and right controls -->
+	<a class="carousel-control-prev" href="#demo" data-slide="prev">
+		<span class="carousel-control-prev-icon"></span>
+	</a>
+	<a class="carousel-control-next" href="#demo" data-slide="next">
+		<span class="carousel-control-next-icon"></span>
+	</a>
+</div>
+<!--<div>
+	<ul class="nav nav-tabs">
+		<li role="presentation">
+			<a routerLink="../">หน้าแรก</a>
+		</li>
+		<li role="presentation">
+			<a routerLink="../category">หมวดหมู่</a>
+		</li>
+		<li role="presentation">
+			<a routerLink="../login">เข้าสู่ระบบ</a>
+		</li>
+		<li role="presentation" (click)="post()">
+			<a routerLink="../post">ตั้งกระทู้</a>
+		</li>
+		<li role="presentation" *ngIf="isLogin()" (click)="logout()">
+			<a routerLink="../">ออกจากระบบ</a>
+		</li>
+	</ul>
+</div> -->
+
+<!--<ul class="nav justify-content-center">
+	<li class="nav-item">
+	  <a class="nav-link active" routerLink="../">หน้าแรก</a>
+	</li>
+	<li class="nav-item">
+	  <a class="nav-link" routerLink="../category">หมวดหมู่</a>
+	</li>
+	<li class="nav-item">
+	  <a class="nav-link" routerLink="../login">เข้าสู่ระบบ</a>
+	</li>
+	<li class="nav-item" (click)="post()">
+	  <a class="nav-link" routerLink="../post">ตั้งกระทู้</a>
+	</li>
+	<li class="nav-item" *ngIf="isLogin()" (click)="logout()">
+		<a class="nav-link" routerLink="../">ออกจากระบบ</a>
+	  </li>
+	</ul> -->
+	
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+			<!-- Brand/logo -->
+			<a class="navbar-brand" routerLink="../">HOME</a>
+			
+			<!-- Links -->
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link" routerLink="../">หน้าแรก</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" routerLink="../category">หมวดหมู่</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" routerLink="../login">เข้าสู่ระบบ</a>
+				</li>
+				<li class="nav-item" (click)="post()">
+						<a class="nav-link" routerLink="../post">ตั้งกระทู้</a>
+					</li>
+					<li class="nav-item" *ngIf="isLogin()" (click)="logout()">
+							<a class="nav-link" routerLink="../">ออกจากระบบ</a>
+						</li>
+			</ul>
+		</nav>

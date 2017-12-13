@@ -1,0 +1,9 @@
+.card-deck{
+    text-align: center;
+}
+
+.card-img-top{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}

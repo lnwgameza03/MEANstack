@@ -1,0 +1,26 @@
+<h1>
+  <div class="form-group">
+    <label for="usr">ระบุคำถามของคุณ เช่น เว็บ Pantip.com ก่อตั้งขึ้นตั้งแต่เมื่อไหร่ ใครพอทราบบ้าง?</label>
+    <input type="text" class="form-control" id="usr">
+  </div>
+  <div class="dropdown">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        ประเภทกีฬา
+      </button>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="#">Football</a>
+        <a class="dropdown-item" href="#">Basketball</a>
+        <a class="dropdown-item" href="#">Table Tennis</a>
+        <a class="dropdown-item" href="#">Swimming</a>
+        <a class="dropdown-item" href="#">Golf</a>
+        <a class="dropdown-item" href="#"></a>
+      </div>
+    </div>
+  <div class="form-group">
+    <label for="comment">เขียนรายละเอียดของคำถาม</label>
+    <textarea class="form-control" rows="5" id="comment"></textarea>
+  </div>
+  <div class="text-center">
+    <button type="button" class="btn btn-outline-primary" (click)="login()">ส่งกระทู้</button>
+  </div>
+</h1>
